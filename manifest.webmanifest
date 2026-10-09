@@ -1,0 +1,29 @@
+{
+ "name": "Fibra · Guida di campo",
+ "short_name": "Fibra Campo",
+ "description": "Guida di campo offline per giuntisti di fibra ottica",
+ "lang": "it",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f6f7f9",
+ "theme_color": "#2f5fb3",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ]
+}
