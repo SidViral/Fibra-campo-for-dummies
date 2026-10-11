@@ -1,6 +1,6 @@
-# Fibra · Guida di campo
+# Fibra · Guida di campo · versione 0.5 beta
 
-Guida di consultazione **offline** per giuntisti di fibra ottica, in italiano tecnico.
+Guida di consultazione **offline** per giuntisti di fibra ottica, in italiano tecnico. **È in prova:** segnala errori e problemi in [Issues](https://github.com/SidViral/Fibra-campo-for-dummies/issues).
 244 schede su strumenti, sicurezza, apparati passivi e attivi, procedure, collaudo, ricerca guasti e riconoscimento dei produttori, con fonti citate.
 
 **👉 Apri la guida: https://sidviral.github.io/Fibra-campo-for-dummies/**
@@ -29,8 +29,8 @@ Guida di consultazione **offline** per giuntisti di fibra ottica, in italiano te
 ## Funzioni
 
 - **Funziona senza connessione** dopo la prima apertura (o scaricando il file).
-- **Ricerca** per sigla, parola o valore, tollerante ai refusi; **filtri** combinabili per sezione, categoria, tag, produttore, ambito e stato di verifica.
-- **Pannello Colori**: tema chiaro/scuro/di sistema, palette, alto contrasto, saturazione, dimensione del testo, modalità **ADHD** (il colore cambia ogni N azioni) e **un colore per sezione**.
+- **Ricerca** per sigla, parola o valore, tollerante ai refusi; **Invio** o il tasto **Cerca** della tastiera chiude la tastiera e porta al primo risultato. **Filtri** combinabili per sezione, categoria, tag, produttore, ambito e stato di verifica.
+- **Pannello Colori**: tema come il dispositivo, chiaro, scuro o **Folle** (console VFD in stile Task Manager: sfondo nero e accenti luminosi); palette, alto contrasto, saturazione, bagliore, dimensione del testo, modalità **ADHD** (il colore cambia ogni N azioni) e **un colore per sezione**.
 - **Stampa** della vista filtrata o dell'intera guida.
 - **Installabile come app** su telefono e computer.
 
@@ -94,8 +94,15 @@ Per un dato tecnico errato indica anche la fonte corretta.
 ### Pubblicare un aggiornamento
 
 1. Carica il nuovo `index.html` (**Add file → Upload files → Commit changes**).
-2. In `sw.js` aumenta la versione, per esempio `fibra-campo-1.5` → `fibra-campo-1.6`: così i dispositivi cancellano la copia offline vecchia.
+2. In `sw.js` aumenta la versione, per esempio `fibra-campo-0.5.0-beta` → `fibra-campo-0.6.0-beta`: così i dispositivi cancellano la copia offline vecchia.
 3. Chi ha installato la guida riceve l'aggiornamento alla prima apertura con internet.
+
+## Versioni
+
+| Versione | Stato |
+| --- | --- |
+| 0.5 beta (11 ottobre 2026) | In prova con i tester. Le versioni 1.0–1.5 precedenti erano interne di sviluppo. |
+| 1.0 | Uscirà quando: le 20 voci [DA VERIFICARE] sono confermate o tolte; la guida è provata su almeno 3 telefoni reali (iPhone e Android); le foto principali sono inserite; nessuna segnalazione grave è aperta. |
 
 ## Crediti
 
